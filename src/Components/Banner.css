@@ -1,0 +1,26 @@
+.image-banner {
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+}
+
+/* Full-width image */
+.image-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* 📱 Responsive heights */
+@media (max-width: 1024px) {
+  .image-banner {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .image-banner {
+    height: 45vh;
+  }
+}

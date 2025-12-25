@@ -1,0 +1,22 @@
+.top-header {
+  width: 100%;
+  background: linear-gradient(135deg, #4b1d3f, #ff5f7e);
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.top-header span {
+  font-weight: 700;
+  color: #ffe3ec;
+}
+
+/* Mobile friendly */
+@media (max-width: 600px) {
+  .top-header {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+}
